@@ -142,6 +142,8 @@ replace (
 	github.com/sagernet/fswatch => github.com/Yewenyu/fswatch v0.1.1
 	github.com/sagernet/gomobile => github.com/Yewenyu/gomobile v0.1.8 // 可改版本/分支，如 @main
 	github.com/sagernet/gvisor => github.com/Yewenyu/gvisor v0.0.0-20250325023245-7a9c0f5725fb
+	github.com/sagernet/netlink => github.com/Yewenyu/netlink v0.0.0-20240612041022-b9a21c07ac6a
+	github.com/sagernet/nftables => github.com/Yewenyu/nftables v0.3.0-beta.4
 	github.com/sagernet/quic-go => github.com/Yewenyu/quic-go v0.52.0-sing-box-mod.2
 	github.com/sagernet/sing => github.com/Yewenyu/sing v0.7.12
 	github.com/sagernet/sing-mux => github.com/Yewenyu/sing-mux v0.3.3

@@ -244,6 +244,9 @@ lib_apple:
 lib_ios:
 	go run ./cmd/internal/build_libbox -target apple -platform ios -debug
 
+lib_ios_clash:
+	go run ./cmd/internal/build_clash -target apple -platform ios -debug
+
 lib:
 	go run ./cmd/internal/build_libbox -target android
 	go run ./cmd/internal/build_libbox -target ios

@@ -12,6 +12,10 @@ github.com/Yewenyu/gomobile v0.1.8 h1:67vX1ul5dk7BqPYZ4YMKGhy/UsDhocC6+FVg22gQfo
 github.com/Yewenyu/gomobile v0.1.8/go.mod h1:A8l3FlHi2D/+mfcd4HHvk5DGFPW/ShFb9jHP5VmSiDY=
 github.com/Yewenyu/gvisor v0.0.0-20250325023245-7a9c0f5725fb h1:13oi11s3nP99OMd0la9Nzzn6heOKPmBY3p9BTRd1DYM=
 github.com/Yewenyu/gvisor v0.0.0-20250325023245-7a9c0f5725fb/go.mod h1:QkkPEJLw59/tfxgapHta14UL5qMUah5NXhO0Kw2Kan4=
+github.com/Yewenyu/netlink v0.0.0-20240612041022-b9a21c07ac6a h1:8RwmCAZsbILCOdaTeeyfIj8uVOdoqjx/OYgHn/A5+hI=
+github.com/Yewenyu/netlink v0.0.0-20240612041022-b9a21c07ac6a/go.mod h1:xLnfdiJbSp8rNqYEdIW/6eDO4mVoogml14Bh2hSiFpM=
+github.com/Yewenyu/nftables v0.3.0-beta.4 h1:ALDbBIENZ3LxBgX1AybKN//I0c06zXDlHO9WOqBVUeo=
+github.com/Yewenyu/nftables v0.3.0-beta.4/go.mod h1:OQXAjvjNGGFxaTgVCSTRIhYB5/llyVDeapVoENYBDS8=
 github.com/Yewenyu/quic-go v0.52.0-sing-box-mod.2 h1:n9LD8D/ktjJMdReRY+nKfl8kszVGNtrWHm/osRB6zuQ=
 github.com/Yewenyu/quic-go v0.52.0-sing-box-mod.2/go.mod h1:OV+V5kEBb8kJS7k29MzDu6oj9GyMc7HA07sE1tedxz4=
 github.com/Yewenyu/sing v0.7.12 h1:c7HpjGh7LDS1LjaFbsfFywut8I5LreX7TyXk+szRdUQ=
@@ -186,10 +190,6 @@ github.com/quic-go/qpack v0.5.1/go.mod h1:+PC4XFrEskIVkcLzpEkbLqq1uCoxPhQuvK5rH1
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/safchain/ethtool v0.3.0 h1:gimQJpsI6sc1yIqP/y8GYgiXn/NjgvpM0RNoWLVVmP0=
 github.com/safchain/ethtool v0.3.0/go.mod h1:SA9BwrgyAqNo7M+uaL6IYbxpm5wk3L7Mm6ocLW+CJUs=
-github.com/sagernet/netlink v0.0.0-20240612041022-b9a21c07ac6a h1:ObwtHN2VpqE0ZNjr6sGeT00J8uU7JF4cNUdb44/Duis=
-github.com/sagernet/netlink v0.0.0-20240612041022-b9a21c07ac6a/go.mod h1:xLnfdiJbSp8rNqYEdIW/6eDO4mVoogml14Bh2hSiFpM=
-github.com/sagernet/nftables v0.3.0-beta.4 h1:kbULlAwAC3jvdGAC1P5Fa3GSxVwQJibNenDW2zaXr8I=
-github.com/sagernet/nftables v0.3.0-beta.4/go.mod h1:OQXAjvjNGGFxaTgVCSTRIhYB5/llyVDeapVoENYBDS8=
 github.com/spf13/cobra v1.9.1 h1:CXSaggrXdbHK9CF+8ywj8Amf7PBRmPCOJugH954Nnlo=
 github.com/spf13/cobra v1.9.1/go.mod h1:nDyEzZ8ogv936Cinf6g1RU9MRY64Ir93oCnqb9wxYW0=
 github.com/spf13/pflag v1.0.6 h1:jFzHGLGAlb3ruxLB8MhbI6A8+AQX/2eW4qeyNZXNp2o=
