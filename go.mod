@@ -133,3 +133,26 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.3.0 // indirect
 )
+
+// 逐个替换（替换前缀为 github.com/Yewenyu，版本与原声明一致）
+replace (
+	github.com/sagernet/asc-go => github.com/Yewenyu/asc-go v0.0.0-20241217030726-d563060fe4e1
+	github.com/sagernet/bbolt => github.com/Yewenyu/bbolt v0.0.0-20231014093535-ea5cb2fe9f0a
+	github.com/sagernet/cors => github.com/Yewenyu/cors v1.2.1
+	github.com/sagernet/fswatch => github.com/Yewenyu/fswatch v0.1.1
+	github.com/sagernet/gomobile => github.com/Yewenyu/gomobile v0.1.8 // 可改版本/分支，如 @main
+	github.com/sagernet/gvisor => github.com/Yewenyu/gvisor v0.0.0-20250325023245-7a9c0f5725fb
+	github.com/sagernet/quic-go => github.com/Yewenyu/quic-go v0.52.0-sing-box-mod.2
+	github.com/sagernet/sing => github.com/Yewenyu/sing v0.7.12
+	github.com/sagernet/sing-mux => github.com/Yewenyu/sing-mux v0.3.3
+	github.com/sagernet/sing-quic => github.com/Yewenyu/sing-quic v0.5.2-0.20250909083218-00a55617c0fb
+	github.com/sagernet/sing-shadowsocks => github.com/Yewenyu/sing-shadowsocks v0.2.8
+	github.com/sagernet/sing-shadowsocks2 => github.com/Yewenyu/sing-shadowsocks2 v0.2.1
+	github.com/sagernet/sing-shadowtls => github.com/Yewenyu/sing-shadowtls v0.2.1-0.20250503051639-fcd445d33c11
+	github.com/sagernet/sing-tun => github.com/Yewenyu/sing-tun v0.7.2
+	github.com/sagernet/sing-vmess => github.com/Yewenyu/sing-vmess v0.2.7
+	github.com/sagernet/smux => github.com/Yewenyu/smux v1.5.34-mod.2 // 如需主分支：=> github.com/Yewenyu/smux main
+	github.com/sagernet/tailscale => github.com/Yewenyu/tailscale v1.80.3-sing-box-1.12-mod.1
+	github.com/sagernet/wireguard-go => github.com/Yewenyu/wireguard-go v0.0.1-beta.7
+	github.com/sagernet/ws => github.com/Yewenyu/ws v0.0.0-20231204124109-acfe8907c854
+)
