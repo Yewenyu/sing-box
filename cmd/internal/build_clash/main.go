@@ -154,6 +154,7 @@ func buildApple() {
 
 	args := []string{
 		"bind",
+		"-iosversion=13.0",
 		"-v",
 		"-target", bindTarget,
 		"-libname=box",
