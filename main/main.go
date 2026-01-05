@@ -49,10 +49,10 @@ func main() {
 
 	reload()
 	// ctx := clash.BaseContext(nil)
-	go func() {
-		time.Sleep(5 * time.Second)
-		reload()
-	}()
+	// go func() {
+	// 	time.Sleep(5 * time.Second)
+	// 	reload()
+	// }()
 
 	// go tool pprof -http=:8081 http://localhost:6060/debug/pprof/goroutine
 	// go tool pprof http://localhost:6060/debug/pprof/heap

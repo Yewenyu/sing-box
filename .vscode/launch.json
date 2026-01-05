@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/main/main.go",
+            "buildFlags": "-tags with_clash_api", // 关键：用buildFlags指定编译标签，而非args
+        },
+        {
+            "name": "LaunchRoot",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/main/main.go",
+            "buildFlags": "-tags with_clash_api", // 关键：用buildFlags指定编译标签，而非args
+            "asRoot": true,
+            "console": "integratedTerminal"
+        }
+    ]
+}
